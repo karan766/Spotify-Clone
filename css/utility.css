@@ -1,0 +1,78 @@
+.border{
+    border: 2px solid red;
+    margin:  3px;
+}
+
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+
+.item-center{
+    justify-content: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-grey{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+
+
+/* For Webkit/Blink based browsers */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #333; /* Color of the scrollbar thumb */
+    border-radius: 6px; /* Radius of the scrollbar thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color of the scrollbar thumb on hover */
+  }
+  
+  /* For Firefox */
+  /* The following styles only work in Firefox Nightly */
+  /* For the stable version, you can use JavaScript or other approaches */
+  /* See: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scrollbars */
+  
+  /* Track */
+  /* Only available in Firefox Nightly */
+  /* To enable, go to about:config and set layout.css.scrollbar-color.enabled to true */
+  /* Note: These styles might change in future versions */
+  
+  /* .dark-scrollbar is a custom class used to target the scrollbar */
+  /* Change as needed to match your structure */
+  .dark-scrollbar {
+    scrollbar-color: #333 #111; /* Color of the scrollbar thumb and track */
+    scrollbar-width: thin; /* Width of the scrollbar */
+  }
+  
+  .dark-scrollbar:hover {
+    scrollbar-color: #555 #111; /* Color of the scrollbar thumb and track on hover */
+  }
+
+
+
+
+
+
+
+  
